@@ -29,8 +29,8 @@
     "today": "Today's New",
     "topics": "Topics"
   },
-  "defaultAgent": "Default Assistant",
-  "defaultSession": "Default Assistant",
+  "defaultAgent": "Chatbot",
+  "defaultSession": "Chatbot",
   "delete": "Delete",
   "document": "User Manual",
   "download": "Download",

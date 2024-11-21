@@ -32,12 +32,7 @@
       "moreBtn": "Learn More",
       "title": "Frequently Asked Questions:"
     },
-    "welcome": {
-      "afternoon": "Good Afternoon",
-      "morning": "Good Morning",
-      "night": "Good Evening",
-      "noon": "Good Noon"
-    }
+    "welcome": "Hello!"
   },
   "header": "Welcome",
   "pickAgent": "Or choose from the following assistant templates",

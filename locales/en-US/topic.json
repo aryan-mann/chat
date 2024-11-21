@@ -9,7 +9,7 @@
     "removeAll": "Delete All Topics",
     "removeUnstarred": "Delete Unstarred Topics"
   },
-  "defaultTitle": "Default Topic",
+  "defaultTitle": "Unassorted",
   "duplicateLoading": "Copying Topic...",
   "duplicateSuccess": "Topic Copied Successfully",
   "favorite": "Favorite",

@@ -29,10 +29,10 @@ const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
     >
       <Image
         alt={BRANDING_NAME}
-        height={240}
+        height={100}
         src={BRANDING_LOGO_URL}
         unoptimized={true}
-        width={240}
+        width={384}
       />
     </Center>
   );

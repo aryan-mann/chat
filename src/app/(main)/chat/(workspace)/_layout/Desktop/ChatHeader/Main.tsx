@@ -72,7 +72,7 @@ const Main = memo(() => {
         size={40}
         title={title}
       />
-      <ChatHeaderTitle desc={displayDesc} tag={<Tags />} title={displayTitle} />
+      <ChatHeaderTitle tag={<Tags />} title={displayTitle} />
     </Flexbox>
   );
 });

@@ -402,7 +402,7 @@
   },
   "tab": {
     "about": "About",
-    "agent": "Default Assistant",
+    "agent": "Chatbot",
     "common": "Common Settings",
     "experiment": "Experiment",
     "llm": "Language Model",

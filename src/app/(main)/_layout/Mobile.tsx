@@ -4,7 +4,6 @@ import { usePathname } from 'next/navigation';
 import qs from 'query-string';
 import { memo } from 'react';
 
-import CloudBanner from '@/features/AlertBanner/CloudBanner';
 import { useQuery } from '@/hooks/useQuery';
 import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
 
@@ -26,11 +25,8 @@ const Layout = memo(({ children, nav }: LayoutProps) => {
   const { url } = qs.parseUrl(pathname);
   const showNav = !showMobileWorkspace && MOBILE_NAV_ROUTES.has(url);
 
-  const { showCloudPromotion } = useServerConfigStore(featureFlagsSelectors);
-
   return (
     <>
-      {showCloudPromotion && <CloudBanner mobile />}
       {children}
       {showNav && nav}
     </>
