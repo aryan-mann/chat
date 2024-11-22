@@ -56,8 +56,8 @@ export const generateViewport = async (): ResolvingViewport => {
     initialScale: 1,
     minimumScale: 1,
     themeColor: [
-      { color: '#f8f8f8', media: '(prefers-color-scheme: light)' },
-      { color: '#000', media: '(prefers-color-scheme: dark)' },
+      { color: '##FEFDFD', media: '(prefers-color-scheme: light)' },
+      { color: '#161616', media: '(prefers-color-scheme: dark)' },
     ],
     viewportFit: 'cover',
     width: 'device-width',

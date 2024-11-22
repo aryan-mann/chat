@@ -122,8 +122,8 @@ const AppTheme = memo<AppThemeProps>(
       <ThemeProvider
         className={cx(styles.app, styles.scrollbar, styles.scrollbarPolyfill)}
         customTheme={{
-          neutralColor: neutralColor ?? defaultNeutralColor,
-          primaryColor: primaryColor ?? defaultPrimaryColor,
+          neutralColor: "sage", // neutralColor ?? defaultNeutralColor,
+          primaryColor: "green", // primaryColor ?? defaultPrimaryColor,
         }}
         defaultAppearance={defaultAppearance}
         onAppearanceChange={(appearance) => {
@@ -141,12 +141,7 @@ const AppTheme = memo<AppThemeProps>(
         <GlobalStyle />
         <AntdStaticMethods />
         <ConfigProvider
-          config={{
-            aAs: Link,
-            imgAs: Image,
-            imgUnoptimized: true,
-            proxy: globalCDN ? 'unpkg' : undefined,
-          }}
+          config={{ aAs: Link, imgAs: Image, imgUnoptimized: true, proxy: globalCDN ? 'unpkg' : undefined,}}
         >
           {children}
         </ConfigProvider>
