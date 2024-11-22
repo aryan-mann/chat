@@ -6,6 +6,10 @@ export const LOBE_CHAT_CLOUD = 'Amchem Chat Cloud';
 
 export const BRANDING_NAME = 'Amchem Chat';
 export const BRANDING_LOGO_URL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9y5nKSJKcN3CO9B88VCqAUGsdhiGHfiA3Uw&s';
+export const BRANDING_LOGOS = {
+  "Full": "https://amchemproducts.com/_next/image?url=%2Fimages%2Flogo_byline.png&w=256&q=75",
+  "Short": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9y5nKSJKcN3CO9B88VCqAUGsdhiGHfiA3Uw&s"
+}
 
 export const ORG_NAME = 'Amchem';
 

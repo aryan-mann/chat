@@ -19,7 +19,8 @@
     "types": ["vitest/globals", "@serwist/next/typings"],
     "paths": {
       "@/*": ["./src/*"],
-      "~test-utils": ["./tests/utils.tsx"]
+      "~test-utils": ["./tests/utils.tsx"],
+      "$utils": ["./src/components/utils.tsx"]
     },
     "plugins": [
       {

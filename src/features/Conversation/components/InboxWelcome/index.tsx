@@ -50,7 +50,6 @@ const InboxWelcome = memo(() => {
     <Center padding={16} width={'100%'}>
       <Flexbox className={styles.container} gap={16} style={{ maxWidth: 800 }} width={'100%'}>
         <Flexbox align={'center'} gap={8} horizontal>
-          <FluentEmoji emoji={'👋'} size={40} type={'anim'} />
           <h1 className={styles.title}>{greeting}</h1>
         </Flexbox>
         <Markdown className={styles.desc} variant={'chat'}>

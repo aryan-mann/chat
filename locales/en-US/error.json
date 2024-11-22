@@ -2,7 +2,7 @@
   "clerkAuth": {
     "loginSuccess": {
       "action": "Continue Session",
-      "desc": "{{greeting}}, it's great to continue serving you. Let's pick up where we left off.",
+      "desc": "Let's pick up where we left off.",
       "title": "Welcome back, {{nickName}}"
     }
   },

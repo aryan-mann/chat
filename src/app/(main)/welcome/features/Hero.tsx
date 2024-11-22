@@ -16,6 +16,7 @@ const useStyles = createStyles(({ css, token }) => {
       color: ${rgba(token.colorText, 0.8)};
       text-align: center;
       text-wrap: balance;
+      margin-top: 8px;
     `,
     title: css`
       margin-block-end: 0;

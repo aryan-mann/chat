@@ -7,10 +7,10 @@
   "guide": {
     "agents": {
       "replaceBtn": "Replace Batch",
-      "title": "New Assistant Recommendations:"
+      "title": "Agent Recommendations"
     },
-    "defaultMessage": "I am your personal intelligent assistant {{appName}}. How can I assist you today?\nIf you need a more professional or customized assistant, you can click `+` to create a custom assistant.",
-    "defaultMessageWithoutCreate": "I am your personal intelligent assistant {{appName}}. How can I assist you today?",
+    "defaultMessage": "How can I assist you today?",
+    "defaultMessageWithoutCreate": "How can I assist you today?",
     "qa": {
       "q01": "What is LobeHub?",
       "q02": "What is {{appName}}?",
@@ -40,6 +40,6 @@
   "slogan": {
     "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
     "desc2": "Create your first assistant and let's get started~",
-    "title": "Unlock the superpower of your brain"
+    "title": "Your AI-powered Coworker"
   }
 }
